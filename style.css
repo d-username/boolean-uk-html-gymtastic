@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* TOP BAR */
+
+.top-bar {
+    background-color: rgb(72, 72, 248);
+    color: white;
+    font-family: sans-serif;
+    padding: 20px; 
+    display: block; 
+}
+
+.logo,
+ul,
+#menu-items {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#menu-items {
+    font-size: 20px;
+}
+
+/* MAIN SECTION */
+
+.main {
+    font-family: sans-serif;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+.main h2 {
+    color: blue;
+    padding-bottom: 30px;
+}
+b {
+    color: blue;
+}
+
+#membership {
+    color: orange;
+    text-decoration: none;
+    border: orange 3px solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 10px 20px 5px;
+}
+
+#youtube,
+#facebook,
+#instagram {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px ;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 9px 8px 13px -5px rgba(0,0,0,0.67);
+    border: black 1px solid; 
+}
+
+#instagram {
+    background-color: rgb(196, 72, 196)
+}
+#facebook {
+    background-color: rgb(64, 104, 216); 
+}
+#youtube {
+    background-color: rgb(243, 23, 23);
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    background-color: rgb(250, 222, 171);
+    padding: 30px;
+    line-height: 2;
+    border: black 1px solid;
+    
+}
+.testimonials h2 {
+    font-family: "Brush Script MT";
+    font-size: 40px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(72, 72, 248);
+    color: white;
+    font-family: sans-serif;
+    padding: 25px;
+}
+
+.footer h3 {
+    padding-bottom: 20px;
+}
+
+#other-locations {
+    list-style: none;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
